@@ -217,5 +217,5 @@ class RuleBasedEvaluator {
     );
   }
 
-  static double _r(double v) => (v * 10).round() / 10;
+  static double _r(num v) => (v * 10).round() / 10;
 }
